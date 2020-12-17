@@ -9,6 +9,7 @@ import (
 	"regexp"
 )
 
+// webpage type
 type Page struct {
 	Title string
 	Body  []byte //byte slice, expected by ioutil
